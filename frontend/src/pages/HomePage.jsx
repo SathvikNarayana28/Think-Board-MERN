@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import api from "../lib/axios";
 import toast from "react-hot-toast";
 import NoteCard from "../Components/NoteCard";
-import NotesNotFound from "../components/NotesNotFound";
+import NotesNotFound from "../Components/NotesNotFound";
 
 const HomePage = () => {
   const [isRateLimited, setIsRateLimited] = useState(false);
